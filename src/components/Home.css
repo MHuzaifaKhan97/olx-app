@@ -1,0 +1,157 @@
+.home_page {
+    width: 100vw;
+}
+
+.hero_banner {
+    width: 100vw;
+    height: 300px;
+    background-image: url('./img/herobg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+.hero_ad {
+    display: block;
+    text-align: center;
+}
+
+
+.hero_ad img {
+    background-image: url('./img/home_add.jpeg');
+    height: 245px;
+    width: 90vh;
+    background-size: 100% 100%;
+}
+
+
+.hero_end {
+    background-color: #F7F8F9;
+    width: 100vw;
+    height: 200px;
+    box-shadow: 4px 3px 5px rgb(100, 99, 99);
+}
+
+.hero_bottom_img {
+    background-image: url('./img/phone-app.webp');
+    height: 200px;
+}
+
+.hero_bottom_center {
+    height: 140px;
+    margin-top: 30px;
+    border-right: 2px solid #0D2F34;
+}
+
+.hero_bottom_center h2 {
+    font-weight: bolder;
+    color: #0D2F34;
+}
+
+.hero_bottom_right {
+    height: 140px;
+    color: #0D2F34;
+}
+
+.hero_bottom_right h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero_bottom_right .apple_logo {
+    background-image: url('./img/applestore.webp');
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+.hero_bottom_right .android_logo {
+    background-image: url('./img/playstore.webp');
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+.fresh_recommendations {
+    color: #0D2F34;
+    font-weight: bold;
+}
+
+.parent-design{
+    text-decoration: none;
+    color: #0D2F34;
+}
+.parent-design:hover{
+    text-decoration: none;
+    color: #0D2F34;
+}
+.post-item {
+    border: .25px solid #0D2F34;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.post-item-child1 {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-item-child1 .featured {
+    flex: 0.25;
+    color: #0D2F34;
+    background-color: rgb(243, 178, 39);
+    text-transform: uppercase;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.post-item-child1 img {
+    flex: 0.55;
+    width: 130px;
+    height: 150px;
+}
+
+.post-item-child1 .heart {
+    flex: 0.20;
+    margin: 5px;
+}
+
+.post-item-child2 {
+    padding: 10px;
+}
+
+.post-item-child2 h3 {
+    color: #0D2F34;
+    font-weight: bolder;
+}
+
+.post-item-child2 p {
+    color: rgb(77, 75, 75);
+    font-weight: lighter;
+}
+
+.post-item-child2 .full-address {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.post-item-child2 .date {
+    font-size: 10px;
+    float: right;
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
+@media screen and (max-width:1250px) {
+    .hero_end {
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .hero_end {
+        display: none;
+    }
+}

@@ -1,0 +1,49 @@
+.choose_categories {
+    margin: 20px 0px;
+    border: 1px solid gray;
+}
+
+.choose_categories h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+}
+
+.btn_addpost {
+    background-color: #0D2F34;
+    color: white;
+    font-weight: bold;
+    float: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn_addpost:hover {
+    color: #0D2F34;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #0D2F34;
+}
+
+.ad_post_text {
+    color: #0D2F34;
+    font-weight: bolder;
+}
+
+.ad_post_text_radio {
+    color: #0D2F34;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+.camera_icon {
+    border: 2px solid #0D2F34;
+    padding: 10px;
+}

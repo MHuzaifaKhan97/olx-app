@@ -1,0 +1,70 @@
+.main-left{
+    border: 2px solid gray;
+    padding: 10px;
+}
+.post-image img {
+    border: 1px solid gray;
+}
+
+.details-condition {
+    border: 1px solid gray;
+}
+
+.details,.description {
+    color: #0D2F34;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.condition {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.main-right .price-and-detail{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.main-right .price-and-detail .price{
+    display: flex;
+    justify-content: space-between;
+}
+.main-right .price-and-detail .price h2{
+    font-weight: bold;
+    color: #0D2F34;
+    padding: 10px 0;
+}
+.main-right .price-and-detail .icon{
+    margin: 16px 0;
+}
+.price-and-detail .address{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: #0D2F34;
+}
+.seller-detail{
+    margin: 10px 0;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.seller-detail .profile{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-custom{
+    background-color: #0D2F34;
+    color: white;
+    font-weight: bold;
+    float: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.show-number{
+    color: rgb(61, 155, 231);
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+.footer {
+    width: 100vw;
+    margin-top: 155px;
+    padding-top: 30px;
+    background-color: #EBEEEF;
+}
+
+.footer h6 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer_link {
+    font-size: 13px;
+    color: rgb(129, 129, 129);
+}
+
+.footer_link:hover {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+
+.footer_ul {
+    list-style-type: none;
+}
+
+.footer_apple_logo {
+    height: 40px;
+    width: 150px;
+    background-image: url('./img/applestore.webp');
+    background-size: 100% 100%;
+}
+
+.footer_android_logo {
+    height: 40px;
+    width: 150px;
+    background-image: url('./img/applestore.webp');
+    background-size: 100% 100%;
+}
+
+.footer_bottom {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #0D2F34;
+    font-size: 13px;
+    height: 50px;
+}
+
+@media screen and (max-width:450px){
+    .text-center-footer{
+        text-align: center;
+    }
+}

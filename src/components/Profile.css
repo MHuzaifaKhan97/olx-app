@@ -1,0 +1,88 @@
+.profile_left{
+    color: #0D2F34;
+}
+.profile_left .edit_profile{
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+.profile_left .btn_custom_profile{
+    border: 2px solid #0D2F34;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.profile_left .btn_custom_profile:hover{
+    border: 4px solid #0D2F34;
+    padding: 5px;
+}
+.profile_right{
+    border: 1px solid gray;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.profile_right > h4{
+    color: #0D2F34;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 15px;   
+}
+.profile_right h6{
+    color: #0D2F34;
+    font-weight: bold;
+}
+.profile_right small{
+    color: rgb(80, 78, 78);
+    margin: 5px 0;
+}
+.basic_information{
+    border-bottom: 1px solid gray;
+}
+.why_important{
+    border: 1px solid #0D2F34;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.contact_information{
+    border-bottom: 1px solid #0D2F34;
+}
+.contact_information .detail{
+    font-size: 11px;
+}
+.optional_information .detail{
+    font-size: 11px;
+}
+.optional_information .btn_custom_facebook{
+    width: 250px;
+    border: 2px solid #0D2F34;
+    font-weight: bold;
+}
+.optional_information .btn_custom_facebook:hover{
+    border: 4px solid #0D2F34;
+}
+.optional_information .btn_custom_google{
+    width: 250px;
+    border: 2px solid #0D2F34;
+    font-weight: bold;
+}
+.optional_information .btn_custom_google:hover{
+    border: 4px solid #0D2F34;
+}
+.optional_information{
+    border-bottom: 1px solid gray;
+}
+.save_changes span{
+    font-weight: bold;
+    color: #0D2F34;
+    border-bottom: #0D2F34;
+}
+.save_changes .btn_savechanges{
+    background-color: #0D2F34;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+.save_changes .btn_savechanges:hover{
+    color: #0D2F34;
+    background-color: white;
+    border: 2px solid #0D2F34;
+}
