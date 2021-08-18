@@ -1,4 +1,4 @@
-# OLX Web Application
+# OLX APP
 
 ### Olx Web Application Assignment using React, React-Router, Redux, Bootstrap, Firebase Authentication, Firebase Database & Firebase Storage.
 
